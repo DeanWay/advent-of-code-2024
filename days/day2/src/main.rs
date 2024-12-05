@@ -1,8 +1,4 @@
-use std::{
-    collections::HashMap,
-    hash::Hash,
-    io::{stdin, BufRead},
-};
+use std::io::{stdin, BufRead};
 
 fn main() {
     let input = parse_input(stdin().lock());
