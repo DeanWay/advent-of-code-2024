@@ -87,7 +87,7 @@ mod tests {
     #[test]
     fn test_part_2_example() {
         let input = parse_input(EXAMPLE.as_bytes());
-        assert_eq!(part_2(&input), 0);
+        assert_eq!(part_2(&input), 65601038650482);
     }
 
     #[test]
